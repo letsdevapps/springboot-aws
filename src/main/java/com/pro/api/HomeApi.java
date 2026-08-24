@@ -12,5 +12,5 @@ public class HomeApi {
 	@GetMapping({ "", "/" })
 	public ResponseEntity<String> index() {
 		return ResponseEntity.ok("----- Springboot AWS | Home Api | Index -----");
-	} 
+	}
 }
