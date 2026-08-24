@@ -43,6 +43,20 @@ Create
 List
 
     aws --endpoint-url=http://localhost:4566 s3 ls
+    
+    aws --profile localstack s3 ls
+
+Create file
+
+    echo "file on LocalStack" > file-ls.txt
+
+Send to bucket
+
+    aws --endpoint-url=http://localhost:4566 s3 cp file-ls.txt s3://bucket-1/
+
+List files
+
+    aws --endpoint-url=http://localhost:4566 s3 ls s3://bucket-1/
 
 ## API Endpoints
 
