@@ -27,12 +27,13 @@ Selecione qual emulador vai usar, AWS
 
     lstk stop
 
-## Docker
-## AWS (Localstack)
+## Docker (Descontinuado)
 
-**Descontinuado**, agora usa-se **lstk** para gerir o container, ele ainda usa docker por baixo dos panos porem administração mudou para o cli.
+**Descontinuado, não utilizar**, agora usa-se **lstk** para gerir o container, ele ainda usa docker por baixo dos panos porem administração mudou para o cli.
 
     docker run --rm -it -p 4566:4566 localstack/localstack
+
+## AWS (Localstack)
 
 ### S3
 
